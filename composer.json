@@ -1,0 +1,26 @@
+{
+    "name": "byinti/php-newrelic",
+    "description": "PHP SDK for New Relic Agent API",
+    "keywords": ["newrelic", "monitoring"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ByINTI"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NewRelic\\": "src/NewRelic/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "suggest": {
+        "ext-newrelic": "Get the New Relic PHP extension from http://newrelic.com"
+    }
+}
