@@ -13,7 +13,7 @@ Installation
 Using Composer's command line interface:
 
 ```bash
-php composer.phar require byinti/php-newrelic:1.*
+php composer.phar require byinti/php-newrelic:2.*
 ```
 
 or 
