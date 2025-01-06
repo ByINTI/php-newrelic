@@ -19,7 +19,7 @@ php composer.phar require byinti/php-newrelic:1.*
 or 
 
 ```bash
-composer require byinti/php-newrelic:1.*
+composer require byinti/php-newrelic:2.*
 ```
 - - -
 
