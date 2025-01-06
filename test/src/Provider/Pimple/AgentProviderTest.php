@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace SobanVuex\NewRelic\Tests\Provider\Pimple;
+namespace byinti\NewRelic\Tests\Provider\Pimple;
 
 use Pimple\Container;
-use SobanVuex\NewRelic\Provider\Pimple\AgentProvider;
+use byinti\NewRelic\Provider\Pimple\AgentProvider;
 
 class AgentProviderTest extends \PHPUnit_Framework_TestCase
 {
@@ -30,11 +30,11 @@ class AgentProviderTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Provider\Pimple\AgentProvider::register
+     * @covers byinti\NewRelic\Provider\Pimple\AgentProvider::register
      */
     public function testAgentProvider()
     {
-        $this->assertInstanceOf('SobanVuex\NewRelic\Agent', $this->container['newrelic']);
+        $this->assertInstanceOf('byinti\NewRelic\Agent', $this->container['newrelic']);
         $this->assertInternalType('boolean', $this->container['newrelic']->isLoaded());
     }
 }

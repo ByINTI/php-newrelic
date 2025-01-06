@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace SobanVuex\NewRelic\Provider\Pimple;
+namespace byinti\NewRelic\Provider\Pimple;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
-use SobanVuex\NewRelic\Agent;
+use byinti\NewRelic\Agent;
 
 /**
  * Service provider for the New Relic Agent Wrapper.

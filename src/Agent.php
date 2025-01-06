@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace SobanVuex\NewRelic;
+namespace byinti\NewRelic;
 
 use Exception;
 

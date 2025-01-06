@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace SobanVuex\NewRelic\Tests;
+namespace byinti\NewRelic\Tests;
 
-use SobanVuex\NewRelic\Agent;
+use byinti\NewRelic\Agent;
 
 /**
  * @requires extension newrelic
@@ -54,7 +54,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::isLoaded
+     * @covers byinti\NewRelic\Agent::isLoaded
      */
     public function testIsLoaded()
     {
@@ -64,7 +64,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::addCustomParameter
+     * @covers byinti\NewRelic\Agent::addCustomParameter
      */
     public function testAddCustomParameter()
     {
@@ -72,7 +72,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::addCustomTracer
+     * @covers byinti\NewRelic\Agent::addCustomTracer
      */
     public function testAddCustomTracer()
     {
@@ -80,7 +80,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::backgroundJob
+     * @covers byinti\NewRelic\Agent::backgroundJob
      */
     public function testBackgroundJob()
     {
@@ -88,7 +88,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::captureParams
+     * @covers byinti\NewRelic\Agent::captureParams
      */
     public function testCaptureParams()
     {
@@ -96,7 +96,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::customMetric
+     * @covers byinti\NewRelic\Agent::customMetric
      */
     public function testCustomMetric()
     {
@@ -104,7 +104,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::disableAutorum
+     * @covers byinti\NewRelic\Agent::disableAutorum
      */
     public function testDisableAutorum()
     {
@@ -112,7 +112,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::endOfTransaction
+     * @covers byinti\NewRelic\Agent::endOfTransaction
      */
     public function testEndOfTransaction()
     {
@@ -120,7 +120,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::endTransaction
+     * @covers byinti\NewRelic\Agent::endTransaction
      */
     public function testEndTransaction()
     {
@@ -128,7 +128,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::getBrowserTimingFooter
+     * @covers byinti\NewRelic\Agent::getBrowserTimingFooter
      */
     public function testGetBrowserTimingFooter()
     {
@@ -136,7 +136,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::getBrowserTimingHeader
+     * @covers byinti\NewRelic\Agent::getBrowserTimingHeader
      */
     public function testGetBrowserTimingHeader()
     {
@@ -144,7 +144,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::ignoreApdex
+     * @covers byinti\NewRelic\Agent::ignoreApdex
      */
     public function testIgnoreApdex()
     {
@@ -152,7 +152,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::ignoreTransaction
+     * @covers byinti\NewRelic\Agent::ignoreTransaction
      */
     public function testIgnoreTransaction()
     {
@@ -160,7 +160,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::nameTransaction
+     * @covers byinti\NewRelic\Agent::nameTransaction
      */
     public function testNameTransaction()
     {
@@ -168,7 +168,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::noticeError
+     * @covers byinti\NewRelic\Agent::noticeError
      */
     public function testNoticeError()
     {
@@ -176,7 +176,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::recordCustomEvent
+     * @covers byinti\NewRelic\Agent::recordCustomEvent
      */
     public function testRecordCustomEvent()
     {
@@ -184,7 +184,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::setAppname
+     * @covers byinti\NewRelic\Agent::setAppname
      */
     public function testSetAppname()
     {
@@ -192,7 +192,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::setUserAttributes
+     * @covers byinti\NewRelic\Agent::setUserAttributes
      */
     public function testSetUserAttributes()
     {
@@ -200,7 +200,7 @@ class AgentTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SobanVuex\NewRelic\Agent::startTransaction
+     * @covers byinti\NewRelic\Agent::startTransaction
      */
     public function testStartTransaction()
     {
