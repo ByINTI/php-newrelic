@@ -16,6 +16,11 @@ Using Composer's command line interface:
 php composer.phar require byinti/php-newrelic:1.*
 ```
 
+or 
+
+```bash
+composer require byinti/php-newrelic:1.*
+```
 - - -
 
 Manually adding the requirements to `composer.json`:
