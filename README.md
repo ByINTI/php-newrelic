@@ -41,5 +41,6 @@ require 'vendor/autoload.php';
 
 
 Packagist Repository
+--------------------
 
 https://packagist.org/packages/byinti/php-newrelic
