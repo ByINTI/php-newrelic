@@ -27,7 +27,7 @@ Manually adding the requirements to `composer.json`:
 
 ```js
 "require": {
-    "byinti/php-newrelic": "1.*"
+    "byinti/php-newrelic": "2.*"
 }
 ```
 
